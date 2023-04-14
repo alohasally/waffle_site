@@ -1,0 +1,87 @@
+{
+  "entries": [
+    {
+      "img": "{{webRoot}}/assets/images/logos/전자직인.svg",
+      "name": "전자직인"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/공간관리.svg",
+      "name": "공간관리"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/복리후생.svg",
+      "name": "복리후생"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/helpdesk.svg",
+      "name": "helpdesk"
+    },
+     {
+      "img": "{{webRoot}}/assets/images/logos/행정관리.svg",
+      "name": "행정관리"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/자산관리.svg",
+      "name": "자산관리"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/오피스운영.svg",
+      "name": "오피스운영"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/문서관리.svg",
+      "name": "문서관리"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/문서수발.svg",
+      "name": "문서수발"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/프로.svg",
+      "name": "Procurement"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/주차신청.svg",
+      "name": "주차신청"
+    },
+
+    {
+      "img": "{{webRoot}}/assets/images/logos/구매.svg",
+      "name": "구매"
+    }, 
+    {
+      "img": "{{webRoot}}/assets/images/logos/워크플로.svg",
+      "name": "워크플로"
+    }, 
+    {
+      "img": "{{webRoot}}/assets/images/logos/시설관리.svg",
+      "name": "시설관리"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/좌석배치도.svg",
+      "name": "좌석배치도"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/공지.svg",
+      "name": "공지"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/문서.svg",
+      "name": "e-문서"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/외주관리.svg",
+      "name": "외주관리"
+    },
+    {
+      "img": "{{webRoot}}/assets/images/logos/경영지원.svg",
+      "name": "경영지원"
+    },
+
+  {
+      "img": "{{webRoot}}/assets/images/logos/회의실관리.svg",
+      "name": "회의실관리"
+    }
+    
+  ]
+}
