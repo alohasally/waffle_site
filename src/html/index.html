@@ -96,78 +96,62 @@
                     <div class="col-md-12">
                         <ul class="honeycomb" lang="es">
                             <li class="honeycomb-cell">
-                                <a href="#">
+                                <a href="./asset.html">
                                     <div class="honeycomb_cell_inner">
-                                        <span><i class="fas fa-user-tie"></i></span>
-                                        <h4 class="honeycomb-cell__title">계약관리</h4>
+                                        <span><i class="fas fa-file-contract"></i></span>
+                                        <h4 class="honeycomb-cell__title fw-medium fs-8">자산관리</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="honeycomb-cell">
-                                <a href="#">
+                                <a href="./purchase.html">
                                     <div class="honeycomb_cell_inner">
-                                        <span><i class="far fa-file-code"></i></span>
-                                        <h4 class="honeycomb-cell__title">문서관리</h4>
+                                        <span><i class="fas fa-cart-shopping"></i></span>
+                                        <h4 class="honeycomb-cell__title fw-medium fs-8">구매</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="honeycomb-cell">
-                                <a href="#">
-                                    <div class="honeycomb_cell_inner">
-                                        <span><i class="fas fa-tags"></i></span>
-                                        <h4 class="honeycomb-cell__title">오피스운영</h4>
+                              <a href="./contract.html">
+                                <div class="honeycomb_cell_inner">
+                                    <span><i class="fas fa-file-contract"></i></span>
+                                        <h4 class="honeycomb-cell__title fw-medium fs-8">계약관리</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="honeycomb-cell">
-                                <a href="#">
+                                <a href="./stamp.html">
                                     <div class="honeycomb_cell_inner">
-                                        <span><i class="fas fa-passport"></i></span>
-                                        <h4 class="honeycomb-cell__title">구매</h4>
+                                        <span><i class="fas fa-stamp"></i></span>
+                                        <h4 class="honeycomb-cell__title fw-medium fs-8">전자인장</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="honeycomb-cell">
-                                <a href="#">
+                                <a href="./document.html">
                                     <div class="honeycomb_cell_inner">
-                                        <span><i class="fas fa-certificate"></i></span>
-                                        <h4 class="honeycomb-cell__title">자산관리</h4>
+                                        <span><i class="fas fa-file-lines"></i></span>
+                                        <h4 class="honeycomb-cell__title  fw-medium text-lowercase fs-8">e문서</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="honeycomb-cell">
-                                <a href="#">
+                                <a href="./workflow.html">
                                     <div class="honeycomb_cell_inner">
-                                        <span><i class="fas fa-store-alt"></i></span>
-                                        <h4 class="honeycomb-cell__title">시설관리</h4>
+                                        <span><i class="fas fa-code-fork"></i></span>
+                                        <h4 class="honeycomb-cell__title fw-medium fs-8">워크플로</h4>
                                     </div>
                                 </a>
                             </li>
                             <li class="honeycomb-cell">
-                                <a href="#">
+                                <a href="./administration.html">
                                     <div class="honeycomb_cell_inner">
-                                        <span><i class="fas fa-rupee-sign"></i></span>
-                                        <h4 class="honeycomb-cell__title">행정관리</h4>
+                                        <span><i class="fas fa-suitcase"></i></span>
+                                        <h4 class="honeycomb-cell__title fw-medium fs-8">일반총무</h4>
                                     </div>
                                 </a>
                             </li>
-                            <li class="honeycomb-cell">
-                                <a href="#">
-                                    <div class="honeycomb_cell_inner">
-                                        <span><i class="fas fa-umbrella-beach"></i></span>
-                                        <h4 class="honeycomb-cell__title">전자결재</h4>
-                                    </div>
-                                </a>
-                            </li>
-                            <li class="honeycomb-cell">
-                                <a href="#">
-                                    <div class="honeycomb_cell_inner">
-                                        <span><i class="fas fa-route"></i></span>
-                                        <h4 class="honeycomb-cell__title">일반총무</h4>
-                                    </div>
-                                </a>
-                            </li>
-    
+
                             <li class="honeycomb-cell honeycomb__placeholder"></li>
                         </ul>
                     </div>
@@ -236,26 +220,23 @@
             <!-- Blog Post-->
             <div class="col-12 col-sm-6 col-lg-3">
               <div
-                class="d-flex flex-column align-items-center h-100 bg-white rounded-5 card overflow-hidden shadow-lg position-relative hover-lift"
+                class="d-flex flex-column h-100 bg-white rounded-5 card overflow-hidden shadow-lg position-relative hover-lift"
               >
-                <span class="fs-4 fw-bolder text-gray d-block pt-4">{{num}}</span>
-                <picture class="d-flex flex-row justify-content-center">
-                  <img
-                    class="w-50 mx-auto pt-4"
-                    src="{{ img }}"
-                    alt="{{ config.defaultImgAlt }}"
-                  />
-                </picture>
-
-                <div class="card-body p-4 p-lg-5">
+                
+              
+              <div class="card-body p-4 p-lg-5">
+                  <span class="display-6 fw-bolder d-block py-4 px-lg-2 opacity-75">{{num}}</span>
                   <p class="fs-4 card-title fw-medium mb-4 lh-sm ">{{ title }}</p>
                   <p class="fs-7 card-title text-gray fw-light mb-4">{{ p }}</p>
-                  <a
-                    href="#"
-                    class="fw-medium fs-7 text-decoration-none link-cover"
-                    >Read more &rarr;</a
-                  >
+                  <picture class="d-flex flex-row justify-content-center">
+                    <img
+                      class="w-50 mx-auto pt-4"
+                      src="{{ img }}"
+                      alt="{{ config.defaultImgAlt }}"
+                    />
+                  </picture>  
                 </div>
+                
               </div>
             </div>
             <!-- / Blog Post-->
@@ -500,7 +481,7 @@
           <h3 class="text-white text-center mt-3 fs-1 mb-3 fw-bold">
             와플을 선택하는 이유
           </h3>
-          <p class="fs-4 text-white text-center">
+          <p class="fs-4 text-white opacity-75 text-center">
             와플은 경영지원 총무 운영에 특화된 꼭 필요한 기능만 담은 플랫폼
           </p>
 
@@ -513,15 +494,15 @@
               data-aos-duration="500"
               data-aos-delay="{{@index}}00"
             >
-              <picture class="d-block f-h-24">
+              <picture class="d-block f-h-16">
                 <img
                   class="h-100 w-auto"
                   src="{{ img }}"
                   alt="{{ config.defaultImgAlt }}"
                 />
               </picture>
-              <p class="text-white fs-4 fw-medium mb-2 mt-3">{{ name }}</p>
-              <p class="text-white opacity-75 text-center fs-7">
+              <p class="text-gray fs-5 fw-medium mb-2 mt-3">{{ name }}</p>
+              <p class="text-white opacity-75 text-center fs-8">
                 {{ description }}
               </p>
             </div>
@@ -564,28 +545,7 @@
             {{/each}}
           </div>
 
-          <a
-            href="#"
-            class="btn btn-primary d-table mx-auto mt-5 w-100 w-md-auto mt-lg-8 mb-3"
-            role="button"
-            >Start your trial</a
-          >
-          <ul
-            class="list-unstyled d-none d-md-flex align-items-center justify-content-center small text-muted mt-3 pt-1 fw-medium fs-9"
-          >
-            <li class="me-4 d-flex align-items-center">
-              <i class="ri-checkbox-circle-fill text-primary ri-lg me-1"></i> No
-              credit card required
-            </li>
-            <li class="me-4 d-flex align-items-center">
-              <i class="ri-checkbox-circle-fill text-primary ri-lg me-1"></i>
-              Cancel anytime
-            </li>
-            <li class="me-4 d-flex align-items-center">
-              <i class="ri-checkbox-circle-fill text-primary ri-lg me-1"></i> 30
-              day free trial
-            </li>
-          </ul>
+          
         </div>
       </div>
       <!-- Product Features summary-->
@@ -599,42 +559,19 @@
               이제 모바일로 언제, 어디서나 편리하게 새로운 경영지원의 시작
               <a href="#"> WAFFLE </a>
             </h4>
-
-            <!-- Stats-->
-            <!-- {{> widgets/stats }} -->
-            <!-- / Stats-->
-            <picture
-            class="d-table mx-auto mt-5 col-12 col-sm-10 position-relative z-index-20"
-          >
-            <img
-              class="w-50 d-table mx-auto"
-              src="{{webRoot}}/assets/images/mobile.png"
-              alt="{{ config.defaultImgAlt }}"
-            />
-          </picture>
-            <p class="fs-4">
-              ‘e-문서, 구매, 자산관리, 워크플로, 일반 총무 등 <br/>
-              다양한 기능을 
-              <a href="#">모바일에서</a> 사용해보세요
-             
-            </p>
-            <div class="d-flex flex-row justify-content-center g-5 mb-5 ">
-              <a href="#" class="btn  mt-4"> <img
-                class="img-fluid d-table mx-auto"
-                src="{{webRoot}}/assets/images/appstore.png"
-                alt="{{ config.defaultImgAlt }}"
-              /></a>
-              <a href="#" class="btn  mt-4"> <img
-                class="img-fluid d-table mx-auto"
-                src="{{webRoot}}/assets/images/googleplay.png"
-                alt="{{ config.defaultImgAlt }}"
-              /></a>
-            </div>
           </div>
         </div>
 
         <div class="position-relative mt-0">
-       
+          <picture
+          class="d-table mx-auto mt-5 col-12 col-sm-10 position-relative z-index-20"
+        >
+          <img
+            class="w-25 d-table mx-auto"
+            src="{{webRoot}}/assets/images/mobile.png"
+            alt="{{ config.defaultImgAlt }}"
+          />
+        </picture>
           <!-- SVG shapes-->
           <div
             class="position-absolute top-0 end-0 start-0 bottom-0 z-index-0 d-none d-lg-block"
@@ -670,6 +607,26 @@
             </div>
           </div>
           <!-- / SVG shapes-->
+              
+          <div class="d-flex flex-row justify-content-center g-5 mb-5 ">
+            <a href="#" class="btn  mt-4"> <img
+              class="img-fluid d-table mx-auto"
+              src="{{webRoot}}/assets/images/appstore.png"
+              alt="{{ config.defaultImgAlt }}"
+            /></a>
+            <a href="#" class="btn  mt-4"> <img
+              class="img-fluid d-table mx-auto"
+              src="{{webRoot}}/assets/images/googleplay.png"
+              alt="{{ config.defaultImgAlt }}"
+            /></a>
+          </div>
+          <div class="col-12 mx-auto pb-6 col-sm-10 col-md-8 col-lg-6 text-center">
+            <p class="fs-4">
+              ‘e-문서, 구매, 자산관리, 워크플로, 일반 총무 등 <br/>
+              다양한 기능을 
+              <a href="#">모바일에서</a> 사용해보세요
+            </p>
+          </div>
         </div>
       </div>
       <!-- / About Us-->

@@ -59,6 +59,7 @@ Note: '~' in the import statement means the file is imported from the node_modul
 
 /* Template Custom CSS - Add your own CSS to this file
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-@import "custom";
 
 @import "comm.scss";
+
+@import "custom.scss";

@@ -1,3 +1,17 @@
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.aline {
+text-decoration: underline;
+color:#fff;
+
+}
+.aline:hover {
+  
+  color: #ffd773;
+}
+
 .honeycomb {
   display: -webkit-box;
   display: flex;
@@ -107,6 +121,7 @@
     #ffd773 50%,
     #ffc83b 100%
   );
+  z-index: 2;
   -webkit-transform: scale(1.055);
   transform: scale(1.055);
 }
@@ -119,11 +134,22 @@
 }
 
 .honeycomb li:hover::before {
-  transform: scale(1.25, 1.25) rotateY(5deg) rotateX(-5deg);
+  transform: scale(1.15, 1.15) rotateY(5deg) rotateX(-5deg);
   animation-fill-mode: forwards;
-  z-index: 9;
+  z-index: 20;
+  background: linear-gradient(
+    to bottom right,
+    #9dbafe -5%,
+    #d0deff 50%,
+    #9dbafe 100%
+  );
 }
-
+.honeycomb li:hover .honeycomb-cell__title{
+  color:#475569;
+}
+.honeycomb li:hover .fas{
+  color:#475569;
+}
 .honeycomb li:hover .honeycomb_cell_inner {
   transform: scale(1.25, 1.25) rotateY(5deg) rotateX(-5deg);
   animation-fill-mode: forwards;
@@ -131,7 +157,7 @@
 }
 
 .honeycomb li:hover {
-  z-index: inherit;
+  z-index: 2;
 }
 
 .honeycomb__placeholder {

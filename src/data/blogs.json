@@ -1,25 +1,25 @@
 {
   "entries": [
     {
-      "num": "1/",
+      "num": "1",
       "img": "{{webRoot}}/assets/images/blog-one.png",
       "title": "자산 관리가 제대로 되고 있지 않아요",
       "p": "비품, 소모품 등 자산 취득, 현황, 폐기 운영, 관리가 제대로 되고 있지 않아요"
     },
     {
-      "num": "2/",
+      "num": "2",
       "img": "{{webRoot}}/assets/images/blog-two.png",
       "title": "총무 운영 리소스를 절감 하고 싶어요",
       "p": "총무 업무 운영 하기 위한 리소스가 너무 많이 들어가고, 비용 지출도 높아요"
     },
     {
-      "num": "3/",
+      "num": "3",
       "img": "{{webRoot}}/assets/images/blog-three.png",
       "title": "구매의 투명성을 확보 하고 싶어요",
       "p": "합당한 비용으로 제대로 구매 하고 있는지 확실하지 않아요"
     },
     {
-      "num": "4/",
+      "num": "4",
       "img": "{{webRoot}}/assets/images/blog-four.png",
       "title": "총무 업무도 디지털 전환이 필요 해요",
       "p": "오래되고 복잡한 프로세스의 업무 방식에서 탈피하고 싶어요"

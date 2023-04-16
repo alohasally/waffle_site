@@ -1,40 +1,29 @@
 {
     "entries": [
         {
-            "img": "{{webRoot}}/assets/images/profile-small-2.jpeg",
-            "name": "Jack Johnston",
-            "title": "Founder & CEO",
-            "bio": "Serial angel investor and entrepreneur, Jack has founded multiple successful startups prior to Sigma."
+            "img": "{{webRoot}}/assets/images/CustomerObsession.png",
+            "name": "Customer Obsession",
+            "title": "유저에게 집착합니다",
+            "bio": "유저가 느끼는 불편함, 그리고 미처 인지하지 못한 Needs 까지 찾아내고 고민합니다. 항상 UX 관점에서 생각하고, 유저가 최고의 효용적 가치를 얻을 수 있도록 행동 합니다. 이를 위해 유저에게 집착해야 합니다. "
         },
         {
-            "img": "{{webRoot}}/assets/images/profile-small-3.jpeg",
-            "name": "JP Laurent",
-            "title": "Executive Chairman",
-            "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas quis tortor sed neque pellentesque."
+            "img": "{{webRoot}}/assets/images/Agile.png",
+            "name": "Agile",
+            "title": "신속하게 움직입니다",
+            "bio": "우리는 Lean 하게 적용하고 Fast Turn Making 합니다. 이를 통해 유저의 Needs를 선제적으로 충족 시킬수 있는 솔루션을 제공해야 합니다. 신속하게 식별하고 개선해 나감으로써 최고의 서비스를 제공할 수 있습니다.                           "
         },
         {
-            "img": "{{webRoot}}/assets/images/profile-small-4.jpeg",
-            "name": "Gary Waite",
-            "title": "Founder & CTO",
-            "bio": "Mauris consequat sodales dolor, eu iaculis tortor efficitur vel. Mauris sed felis augue argum felis."
+            "img": "{{webRoot}}/assets/images/AblyInsight.png",
+            "name": "Ably Insight",
+            "title": "선구적 혜안을 추구합니다",
+            "bio": "빠르게 변화하는 환경에서 Regular 함의 반복보다 새로운 상황을 마주할 확률이 높습니다. 이를 위해 Flexible 한 문제 해결 능력을 키워 나가는 것이 중요합니다. 선구적 혜안을 키우고 이를 통해 지속적 성장을 추구 합니다"
         },
         {
-            "img": "{{webRoot}}/assets/images/profile-small-5.jpeg",
-            "name": "Patrica Smith",
-            "title": "VP Marketing",
-            "bio": "Nullam faucibus placerat vestibulum. Vivamus blandit risus a ligula efficitur tincidunt."
-        },
-        {
-            "img": "{{webRoot}}/assets/images/profile-small-6.jpeg",
-            "name": "Samanth Rowson",
-            "title": "Head Designer",
-            "bio": "Vestibulum fermentum urna sit amet dolor rutrum, non consequat velit vehicula. Proin sed consequat diam."
-        },
-        {
-            "img": "{{webRoot}}/assets/images/profile-small-7.jpeg",
-            "name": "Jack Smith",
-            "title": "Technical Lead",
-            "bio": "Sed venenatis ligula tortor, vel pharetra massa convallis a. Ut bibendum porttitor nisi ornare."
+            "img": "{{webRoot}}/assets/images/Communication.png",
+            "name": "Communication",
+            "title": "수평적으로 소통합니다",
+            "bio": "소통은 수평적으로, 의사결정은 수직적으로 이루어집니다. 모두가 수평적인 관계에서 자신의 의견을 피력하고, 그에 따른 책임은 최종 의사 결정권자에게 있습니다. 이러한 소통 방식을 통해 심리적 안전감을 기반으로 더욱 창의적인 ideation을 합니다. "
         }
+
     ]
 }
