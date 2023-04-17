@@ -206,12 +206,12 @@
 
       {{#if (config blogs)}}
       <!-- Latest Blog Posts-->
-      <div class="bg-primary py-10">
+      <div class="bg-light py-10">
         <div class="container">
           <picture class="d-flex flex-row justify-content-center">
             <img class="w-10 mb-4" src="/src/assets/images/emoji.png" alt="emoji" />
           </picture>
-          <h4 class="fs-1 fw-bold mb-6 text-white text-center">
+          <h4 class="fs-1 fw-bold mb-6 text-dark text-center">
             이런 고민을 하고 계신가요?
           </h4>
 
@@ -269,65 +269,7 @@
                   alt="{{ config.defaultImgAlt }}"
                 />
               </picture>
-              <div
-                class="position-absolute bottom-5 end-0 z-index-30 d-none d-lg-block"
-              >
-                <div
-                  class="p-3 bg-white shadow-lg rounded-3 f-w-60 mb-3 d-flex align-items-center me-0 ms-auto"
-                  data-aos="fade-right"
-                  data-aos-duration="400"
-                  data-aos-delay="450"
-                >
-                  <div class="position-relative me-4">
-                    <picture class="position-relative z-index-0">
-                      <img
-                        class="f-w-12 rounded-circle"
-                        src="{{webRoot}}/assets/images/profile-small-2.jpeg"
-                        alt="{{config.defaultImgAlt}}"
-                      />
-                    </picture>
-                    <span
-                      class="position-absolute z-index-20 d-block f-w-3 f-h-3 border border-3 border-white bg-success rounded-circle bottom-0 end-8"
-                    ></span>
-                  </div>
-                  <div class="lh-sm">
-                    <small class="align-self-center fs-8"
-                      >I like it. 👍 Can we try a different shade of orange for
-                      the nav?
-                    </small>
-                    <span class="fs-9 text-muted fw-medium mt-1 d-block"
-                      >12 mins ago</span
-                    >
-                  </div>
-                </div>
-                <div
-                  class="p-3 bg-white shadow-lg rounded-3 f-w-56 mb-3 d-flex align-items-center me-0 ms-auto"
-                  data-aos="fade-left"
-                  data-aos-duration="400"
-                  data-aos-delay="1500"
-                >
-                  <div class="position-relative me-4">
-                    <picture class="position-relative z-index-0">
-                      <img
-                        class="f-w-12 rounded-circle"
-                        src="{{webRoot}}/assets/images/profile-small-3.jpeg"
-                        alt="{{config.defaultImgAlt}}"
-                      />
-                    </picture>
-                    <span
-                      class="position-absolute z-index-20 d-block f-w-3 f-h-3 border border-3 border-white bg-danger rounded-circle bottom-0 end-8"
-                    ></span>
-                  </div>
-                  <div class="lh-1">
-                    <small class="align-self-center fs-8 lh-sm"
-                      >Orange updated in header and footer.</small
-                    >
-                    <span class="fs-9 text-muted fw-medium mt-1 d-block"
-                      >5 mins ago</span
-                    >
-                  </div>
-                </div>
-              </div>
+         
 
               <!-- Hightlight One SVG Shape-->
               <div
@@ -350,7 +292,7 @@
                 <p
                   class="mb-0 small fw-bolder tracking-wider text-uppercase text-primary"
                 >
-                  Platform Transformation
+                  One Stop Process Platform 
                 </p>
                 <h4 class="fs-1 fw-bold mb-4 mt-3">
                   경영지원 총무도 <br/>새로운 플랫폼의 시작
@@ -384,7 +326,7 @@
               <picture class="position-relative z-index-20">
                 <img
                   class="img-fluid rounded-5"
-                  src="{{webRoot}}/assets/images/feature-2.jpeg"
+                  src="{{webRoot}}/assets/images/onestop_process_1.png"
                   alt="{{ config.defaultImgAlt }}"
                 />
               </picture>
@@ -397,7 +339,7 @@
               </div>
               <!-- /Hightlight Two SVG Shape-->
 
-              <div
+              <!-- <div
                 class="position-absolute bottom-3 start-5 z-index-30 d-none d-lg-block"
                 data-aos="fade-in"
                 data-aos-duration="350"
@@ -435,7 +377,7 @@
                 >
                   <span class="fs-3">👍</span>
                 </div>
-              </div>
+              </div> -->
             </div>
             <!-- /Highlight Two Image Section-->
 
@@ -510,12 +452,7 @@
             {{/each}}
           </div>
 
-          <a
-            href="#"
-            class="btn btn-white d-table mx-auto mt-7 w-100 w-md-auto"
-            role="button"
-            >More about our integrations</a
-          >
+         
         </div>
       </div>
       {{/if}}
@@ -528,21 +465,19 @@
           <h4 class="fs-1 fw-bold mb-3 text-center">
             100명 규모의 기업이라면?
           </h4>
-          <p class="text-muted text-center">
+          <p class="text-muted text-center fs-">
             와플은 구축 솔루션 대비 비용 절감 됩니다
           </p>
+          <p class="text-muted text-center fs-8">* 본 표는 각 기업의 상황에 따라 달라질 수 있습니다.
+          </p>
           <div class="row gx-10 gy-7 mt-4">
-            {{#each features.entries}}
+           
             <!-- Feature-->
-            <div
-              class="col-12 col-md-6 col-lg-4 d-flex flex-column justify-content-start"
-            >
-              <span class="f-w-8 d-block text-primary"> {{{ svg }}} </span>
-              <p class="fw-medium mb-1 mt-3 fs-5">{{ title }}</p>
-              <span class="text-muted fs-7">{{ description }}</span>
-            </div>
+         <picture>
+          <img class="img-fluid" src="/src/assets/images/100.png" alt="100">
+         </picture>
             <!-- / Feature-->
-            {{/each}}
+           
           </div>
 
           
@@ -563,20 +498,31 @@
         </div>
 
         <div class="position-relative mt-0">
-          <picture
-          class="d-table mx-auto mt-5 col-12 col-sm-10 position-relative z-index-20"
-        >
-          <img
-            class="w-25 d-table mx-auto"
+          <div class="col-12 col-lg-4 mx-auto d-flex align-items-center justify-content-center">
+      
+            <img
+              class="w-50"
+              src="{{webRoot}}/assets/images/mobile.png"
+              alt="{{ config.defaultImgAlt }}"
+            />
+            <img
+            class="w-50"
             src="{{webRoot}}/assets/images/mobile.png"
             alt="{{ config.defaultImgAlt }}"
           />
-        </picture>
+          <img
+          class="w-50"
+          src="{{webRoot}}/assets/images/mobile.png"
+          alt="{{ config.defaultImgAlt }}"
+        />
+         
+          </div>
+         
           <!-- SVG shapes-->
           <div
             class="position-absolute top-0 end-0 start-0 bottom-0 z-index-0 d-none d-lg-block"
           >
-            <div class="d-block f-w-6 position-absolute top-n13 end-50">
+            <div class="d-block f-w-6 position-absolute top-n5 end-50">
               <span class="d-block"> {{>svg/svg-shape-one }} </span>
             </div>
 

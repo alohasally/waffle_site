@@ -144,12 +144,7 @@ color:#fff;
     #9dbafe 100%
   );
 }
-.honeycomb li:hover .honeycomb-cell__title{
-  color:#475569;
-}
-.honeycomb li:hover .fas{
-  color:#475569;
-}
+
 .honeycomb li:hover .honeycomb_cell_inner {
   transform: scale(1.25, 1.25) rotateY(5deg) rotateX(-5deg);
   animation-fill-mode: forwards;
